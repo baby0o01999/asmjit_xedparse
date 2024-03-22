@@ -16,8 +16,8 @@
 
 #define XEDPARSE_CALL //calling convention
 
-#define XEDPARSE_MAXBUFSIZE 256
-#define XEDPARSE_MAXASMSIZE 16
+#define XEDPARSE_MAXBUFSIZE 0x1000
+#define XEDPARSE_MAXASMSIZE 0x1000
 
 //typedefs
 typedef bool (XEDPARSE_CALL* CBXEDPARSE_UNKNOWN)(const char* text, unsigned long long* value);
